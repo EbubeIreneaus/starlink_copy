@@ -19,7 +19,7 @@ export default {
   },
   data() {
     return {
-      php_amount:400,
+      php_amount:355,
     }
   },
 }

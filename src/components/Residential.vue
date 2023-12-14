@@ -105,6 +105,7 @@ margin-top: 10px;
             <div class="head-sec-cont text-center">
                 <div class="cont-text position-relative">
                     <h1>ORDER STARLINK</h1>
+                    <h5>End year sales: <b><i style="text-decoration:line-through">$500</i> $355</b></h5>
                 <p class="p-4">Connect to high-speed, low-latecy internet across the globe, even in the most
                      remote and rural locations</p>
                    

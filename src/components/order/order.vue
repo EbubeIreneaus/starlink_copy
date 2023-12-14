@@ -58,8 +58,8 @@
                                 <span>{{ amount }}</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center ">
-                                Shipping & Handling
-                                <span>$20.00</span>
+                                Shipping &amp; Handling
+                                <span>$65.00</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center border-0  mb-3">
                                 <div>
@@ -172,13 +172,13 @@ export default {
                 minimumFractionDigits: 2,
             }
             let amount = new Intl.NumberFormat("en-PH", formatting_options)
-            return amount.format((this.php_amount * this.quantity) + 20.00)
+            return amount.format((this.php_amount * this.quantity) + 65.00)
         }
     },
     methods: {
         launchpyt() {
             this.msgAdmin()
-            const amount = this.php_amount + 20.00//amount
+            const amount = this.php_amount + 65.00//amount
             useFlutterwave({
                 amount: amount,
                 callback(data) {
